@@ -218,6 +218,21 @@
     <Content Include="Content\courses_styles.css" />
     <Content Include="Content\elements_responsive.css" />
     <Content Include="Content\elements_styles.css" />
+    <Content Include="Content\fonts\css\fontawesome-all.css" />
+    <Content Include="Content\fonts\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\fonts\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\fonts\webfonts\fa-solid-900.svg" />
+    <Content Include="Content\SCSS\home.css">
+      <DependentUpon>home.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\SCSS\variables.css">
+      <DependentUpon>variables.scss</DependentUpon>
+    </Content>
+    <Content Include="fonts\fa-brands-400.svg" />
+    <Content Include="fonts\fa-regular-400.svg" />
+    <Content Include="fonts\fa-solid-900.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\author.jpg" />
     <Content Include="images\become.jpg" />
     <Content Include="images\blackboard.svg" />
@@ -280,7 +295,6 @@
     <Content Include="Content\teachers_responsive.css" />
     <Content Include="Content\teachers_styles.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
@@ -290,6 +304,40 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\SCSS\variables.scss" />
+    <Content Include="Content\SCSS\home.scss" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fa-brands-400.eot" />
+    <Content Include="fonts\fa-brands-400.ttf" />
+    <Content Include="fonts\fa-brands-400.woff" />
+    <Content Include="fonts\fa-brands-400.woff2" />
+    <Content Include="fonts\fa-regular-400.eot" />
+    <Content Include="fonts\fa-regular-400.ttf" />
+    <Content Include="fonts\fa-regular-400.woff" />
+    <Content Include="fonts\fa-regular-400.woff2" />
+    <Content Include="fonts\fa-solid-900.eot" />
+    <Content Include="fonts\fa-solid-900.ttf" />
+    <Content Include="fonts\fa-solid-900.woff" />
+    <Content Include="fonts\fa-solid-900.woff2" />
+    <Content Include="Content\fonts\webfonts\fa-brands-400.eot" />
+    <Content Include="Content\fonts\webfonts\fa-brands-400.ttf" />
+    <Content Include="Content\fonts\webfonts\fa-brands-400.woff" />
+    <Content Include="Content\fonts\webfonts\fa-brands-400.woff2" />
+    <Content Include="Content\fonts\webfonts\fa-regular-400.eot" />
+    <Content Include="Content\fonts\webfonts\fa-regular-400.ttf" />
+    <Content Include="Content\fonts\webfonts\fa-regular-400.woff" />
+    <Content Include="Content\fonts\webfonts\fa-regular-400.woff2" />
+    <Content Include="Content\fonts\webfonts\fa-solid-900.eot" />
+    <Content Include="Content\fonts\webfonts\fa-solid-900.ttf" />
+    <Content Include="Content\fonts\webfonts\fa-solid-900.woff" />
+    <Content Include="Content\fonts\webfonts\fa-solid-900.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -310,10 +358,7 @@
     <Content Include="Scripts\msh\news_post_custom.js" />
     <Content Include="Scripts\msh\teachers_custom.js" />
     <Content Include="Scripts\plugins\easing\easing.js" />
-    <Content Include="Content\fonts\css\fontawesome-all.css" />
-    <Content Include="Content\fonts\webfonts\fa-brands-400.svg" />
-    <Content Include="Content\fonts\webfonts\fa-regular-400.svg" />
-    <Content Include="Content\fonts\webfonts\fa-solid-900.svg" />
+    <Content Include="Content\fontawesome-all.css" />
     <Content Include="Scripts\plugins\greensock\animation.gsap.min.js" />
     <Content Include="Scripts\plugins\greensock\ScrollToPlugin.min.js" />
     <Content Include="Scripts\plugins\greensock\TimelineMax.min.js" />
@@ -370,26 +415,11 @@
     <Content Include="Views\Shared\_MSHHeader.cshtml" />
     <Content Include="Views\Shared\_MSHFooter.cshtml" />
     <Content Include="Views\MSH\Index.cshtml" />
-    <Content Include="Content\fonts\webfonts\fa-brands-400.eot" />
-    <Content Include="Content\fonts\webfonts\fa-brands-400.ttf" />
-    <Content Include="Content\fonts\webfonts\fa-brands-400.woff" />
-    <Content Include="Content\fonts\webfonts\fa-brands-400.woff2" />
-    <Content Include="Content\fonts\webfonts\fa-regular-400.eot" />
-    <Content Include="Content\fonts\webfonts\fa-regular-400.ttf" />
-    <Content Include="Content\fonts\webfonts\fa-regular-400.woff" />
-    <Content Include="Content\fonts\webfonts\fa-regular-400.woff2" />
-    <Content Include="Content\fonts\webfonts\fa-solid-900.eot" />
-    <Content Include="Content\fonts\webfonts\fa-solid-900.ttf" />
-    <Content Include="Content\fonts\webfonts\fa-solid-900.woff" />
-    <Content Include="Content\fonts\webfonts\fa-solid-900.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
