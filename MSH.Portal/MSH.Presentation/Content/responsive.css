@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 /******************************
@@ -88,7 +88,7 @@
 	}
 	.header_side
 	{
-		display: none !important;
+		/*display: none !important;*/
 	}
 	.main_nav_container
 	{
@@ -134,6 +134,26 @@
 5. 1024px
 ************/
 
+@keyframes nav-drawer {
+    0%{
+        width:0px;
+        background:red;
+    }
+    25%{
+        left:20px;
+    }
+
+    50%{
+        left:400px;
+        background:green;
+    }
+}
+
+.menu_container{
+    animation-name: nav-drawer;
+    animation-duration: 1s;
+}
+
 @media only screen and (max-width: 1024px)
 {
 	.main_nav_item
@@ -148,10 +168,10 @@
 
 @media only screen and (max-width: 991px)
 {
-	.main_nav_container
+	/*.main_nav_container
 	{
 		display: none;
-	}
+	}*/
 	.logo_container
 	{
 		padding-left: 30px;
@@ -300,11 +320,11 @@
 	}
 	.logo_container
 	{
-		padding-left: 15px;
+		padding-left: 0px;
 	}
 	.logo img
 	{
-		width: 30px;
+		width: 290px;
 	}
 	.logo span
 	{

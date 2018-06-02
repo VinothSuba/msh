@@ -48,7 +48,7 @@ namespace MSH.Presentation
                       //"~/Content/courses_styles.css",
                       //"~/Content/elements_responsive.css",
                       //"~/Content/elements_styles.css",
-                      "~/Content/main_styles.css",
+                      "~/Content/SCSS/home.css",
                         //"~/Content/news_post_responsive.css",
                         //"~/Content/news_post_styles.css",
                         //"~/Content/news_responsive.css",
