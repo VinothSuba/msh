@@ -1,0 +1,82 @@
+@import "variables";
+@import "Mixins";
+body
+{
+    /*
+     * 1. Header sections
+       2. Sign up sections
+       Mobile devices
+    */
+
+    .header{
+    @media(max-width:767px){
+            height: 130px;
+            .header-signup{
+                display:none;
+            }
+
+            .logo_container
+            {
+                padding-left:7px;
+                padding-top:20px;
+
+                .logo{
+                    img{
+                            height: 98px;
+                            width: 300px;
+                    }
+                }
+            }
+        
+    }
+
+     @media(min-width:768px){
+         height: 182px;
+              .header-signup{
+                display:inline-flex;
+            }
+         .logo_container
+            {
+                padding-left:30px;
+                padding-top:20px;
+
+                .logo{
+                    img{
+                            height: 98px;
+                            width: 500px;
+                    }
+                }
+            }
+    }
+  }
+
+    .hero_boxes{
+         @media(max-width:767px){
+               
+                  display:none;
+              
+            }
+          @media(min-width:768px){
+                 display:block;     
+          }
+    }
+
+    .hero_slide_content{
+         @media(max-width:767px){
+               .h1mobile{
+                   display:block;
+               }
+              .h1desktop{
+                  display:none;
+              }
+            }
+          @media(min-width:768px){
+                .h1mobile{
+                   display:none;
+               }
+              .h1desktop{
+                  display:block;
+              }     
+          }
+    }
+}
