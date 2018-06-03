@@ -225,6 +225,12 @@
     <Content Include="Content\SCSS\home.css">
       <DependentUpon>home.scss</DependentUpon>
     </Content>
+    <Content Include="Content\SCSS\Mixins.css">
+      <DependentUpon>Mixins.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\SCSS\Responsive.css">
+      <DependentUpon>Responsive.scss</DependentUpon>
+    </Content>
     <Content Include="Content\SCSS\variables.css">
       <DependentUpon>variables.scss</DependentUpon>
     </Content>
@@ -273,6 +279,8 @@
     <Content Include="images\phone-call.svg" />
     <Content Include="images\placeholder.svg" />
     <Content Include="images\professor.svg" />
+    <Content Include="images\qoutes\kalam.png" />
+    <Content Include="images\qoutes\thomasjefferson.png" />
     <Content Include="images\search_background.jpg" />
     <Content Include="images\slider_background.jpg" />
     <Content Include="images\smartphone.svg" />
@@ -338,6 +346,9 @@
     <Content Include="Content\fonts\webfonts\fa-solid-900.ttf" />
     <Content Include="Content\fonts\webfonts\fa-solid-900.woff" />
     <Content Include="Content\fonts\webfonts\fa-solid-900.woff2" />
+    <Content Include="Content\SCSS\Responsive.scss" />
+    <Content Include="Content\SCSS\Mixins.scss" />
+    <None Include="Properties\PublishProfiles\msh.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -357,8 +368,10 @@
     <Content Include="Scripts\msh\news_custom.js" />
     <Content Include="Scripts\msh\news_post_custom.js" />
     <Content Include="Scripts\msh\teachers_custom.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\plugins\easing\easing.js" />
     <Content Include="Content\fontawesome-all.css" />
+    <Content Include="Scripts\plugins\easing\jquery.easing.min.js" />
     <Content Include="Scripts\plugins\greensock\animation.gsap.min.js" />
     <Content Include="Scripts\plugins\greensock\ScrollToPlugin.min.js" />
     <Content Include="Scripts\plugins\greensock\TimelineMax.min.js" />
@@ -371,6 +384,7 @@
     <Content Include="Content\carusel\owl.video.play.png" />
     <Content Include="Scripts\plugins\parallax.js-2.0.0\jquery.parallax.min.js" />
     <Content Include="Scripts\plugins\progressbar\progressbar.min.js" />
+    <Content Include="Scripts\msh\scrolling-nav.js" />
     <Content Include="Scripts\plugins\scrollmagic\ScrollMagic.min.js" />
     <Content Include="Scripts\plugins\scrollTo\jquery.scrollTo.min.js" />
     <Content Include="Scripts\popper.js" />
