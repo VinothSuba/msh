@@ -10,10 +10,6 @@
 }
 
 
-
-<div class="overlay"></div>
-<div class="super_container">
-
     <div class="home">
 
         <!-- Hero Slider -->
@@ -25,7 +21,16 @@
                     <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
-                            <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
+                            <div class="h1mobile" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
+                                <h1>We set your</h1>
+                                <h1>                                   
+                                    <span>COMFORT</span>                                  
+                                </h1>
+                                <h1>
+                                    zone!
+                                </h1>
+                            </div>
+                            <h1 class="h1desktop" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">We set your <span>COMFORT</span> zone!</h1>
                         </div>
                     </div>
                 </div>
@@ -35,7 +40,16 @@
                     <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
-                            <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
+                            <div class="h1mobile" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
+                                <h1>We set your</h1>
+                                <h1>
+                                    <span>COMFORT</span>
+                                </h1>
+                                <h1>
+                                    zone!
+                                </h1>
+                            </div>
+                            <h1 class="h1desktop" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">We set your <span>COMFORT</span> zone!</h1>
                         </div>
                     </div>
                 </div>
@@ -45,7 +59,16 @@
                     <div class="hero_slide_background" style="background-image:url(images/slider_background.jpg)"></div>
                     <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
                         <div class="hero_slide_content text-center">
-                            <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Get your <span>Education</span> today!</h1>
+                            <div class="h1mobile" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">
+                                <h1>We set your</h1>
+                                <h1>
+                                    <span>COMFORT</span>
+                                </h1>
+                                <h1>
+                                    zone!
+                                </h1>
+                            </div>
+                           <h1 class="h1desktop" data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">We set your <span>COMFORT</span> zone!</h1>
                         </div>
                     </div>
                 </div>
@@ -53,8 +76,8 @@
             </div>
 
             <div class="hero_slider_left hero_slider_nav trans_200">
-                  <span class="fi-chevron-left"></span>       
-                <span class="trans_200">prev</span>              
+                <span class="fi-chevron-left"></span>
+                <span class="trans_200">prev</span>
             </div>
             <div class="hero_slider_right hero_slider_nav trans_200">
                 <span class="trans_200">next</span>
@@ -68,35 +91,51 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/earth-globe.svg" class="svg" alt="">
-                            <div class="hero_box_content">
-                                <h2 class="hero_box_title">Online Courses</h2>
-                                <a href="courses.html" class="hero_box_link">view more</a>
+                    <div class="col-lg-12 hero_box_col">
+                        <div class="hero_box qoute-section">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><h4 class="card-title">Quote of the day</h4>  </p>
+                                                <p><img class="img-fluid" src="~/images/qoutes/kalam.png" alt="card image"></p>
+                                                <h4 class="card-title">A. P. J. Abdul Kalam</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">A. P. J. Abdul Kalam</h4>
+                                                <p class="card-text">You have to dream before your dreams can come true..!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/books.svg" class="svg" alt="">
-                            <div class="hero_box_content">
-                                <h2 class="hero_box_title">Our Library</h2>
-                                <a href="courses.html" class="hero_box_link">view more</a>
+                    @*<div id="facilitieshref" class="col-lg-4 hero_box_col js-scroll-trigger">
+                            <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                                <img src="images/books.svg" class="svg" alt="">
+                                <div class="hero_box_content">
+                                    <h2 class="hero_box_title">Facilities</h2>
+                                    <a id="facilitieslink" href="#facilities" class="hero_box_link js-scroll-trigger">view more</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 hero_box_col">
-                        <div class="hero_box d-flex flex-row align-items-center justify-content-start">
-                            <img src="images/professor.svg" class="svg" alt="">
-                            <div class="hero_box_content">
-                                <h2 class="hero_box_title">Our Teachers</h2>
-                                <a href="teachers.html" class="hero_box_link">view more</a>
+                        <div class="col-lg-4 hero_box_col">
+                            <div class="hero_box d-flex flex-row align-items-center justify-content-start">
+                                <img src="images/professor.svg" class="svg" alt="">
+                                <div class="hero_box_content">
+                                    <h2 class="hero_box_title">Gallary</h2>
+                                    <a href="teachers.html" class="hero_box_link">view more</a>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        </div>*@
 
                 </div>
             </div>
@@ -105,12 +144,12 @@
 
     <!-- Popular -->
 
-    <div class="popular page_section">
+    <div class="popular page_section" id="batches">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="section_title text-center">
-                        <h1>Popular Courses</h1>
+                        <h1>Batch Timing</h1>
                     </div>
                 </div>
             </div>
@@ -174,9 +213,30 @@
         </div>
     </div>
 
+    <div id="aboutus" class="popular page_section" style="margin-top: 117px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-center">
+                        <h1>About Us</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row services_row">
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        We are Group of Engineers of same wavelength, started our journey as Civil Service Aspirants and prepared for exams. In the meanwhile, ambience is that we lagged like all aspirants. Since our Dreams are same as yours, we created this ambience through the Madras Study Hall, which is aimed to satisfy all your needs for achieving the goal. The Message is loud and clear: Trust Yourself, Be True to Yourself, Be Positive and Determined, then Success will be Yours.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Register -->
 
-    <div class="register">
+    <div class="register" id="register">
 
         <div class="container-fluid">
 
@@ -219,7 +279,7 @@
 
     <!-- Services -->
 
-    <div class="services page_section">
+    <div class="services page_section" id="facilities">
 
         <div class="container">
             <div class="row">
@@ -286,7 +346,7 @@
 
     <!-- Testimonials -->
 
-    <div class="testimonials page_section">
+    <div class="testimonials page_section" id="testimonials">
         <!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
         <div class="testimonials_background_container prlx_parent">
             <div class="testimonials_background prlx" style="background-image:url(images/testimonials_background.jpg)"></div>
@@ -365,7 +425,7 @@
 
     <!-- Events -->
 
-    <div class="events page_section">
+    <div class="events page_section" id="bulletin">
         <div class="container">
 
             <div class="row">
@@ -385,7 +445,7 @@
 
                             <div class="col-lg-2 order-lg-1 order-2">
                                 <div class="event_date d-flex flex-column align-items-center justify-content-center">
-                                    <div class="event_day">07</div>
+                                    <div class="event_day">19</div>
                                     <div class="event_month">January</div>
                                 </div>
                             </div>
@@ -473,5 +533,65 @@
         </div>
     </div>
 
-</div>
+
+
+    <div id="contact" class="page_section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section_title text-center">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row services_row">
+                <div class="col-lg-6">
+
+                    <!-- Register -->
+
+                    <div class="register_section d-flex flex-column align-items-center justify-content-center">
+                        <div class="register_content text-center">
+                            <div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile1" data-aos="flip-right">
+                                <p class="contact-agile1"><strong>Phone :</strong> +91 638 071 8575</p>
+                                <p class="contact-agile1"><strong>Email :</strong> <a href="mailto:name@example.com">madrasstudyhall2018@gmail.com</a></p>
+                                <p class="contact-agile1">
+                                    <strong>Address :</strong> NO: 77, AM Block,<br>
+                                    14th Main Road,Anna Nagar,<br>
+                                    Chennai-40
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 nopadding">
+
+                    <!-- Search -->
+
+                    <div class="search_section d-flex flex-column align-items-center justify-content-center">
+                        <div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
+                        <div class="search_content text-center">
+                            <h1 class="search_title">Get In Touch</h1>
+                            <form id="search_form" class="search_form" action="post">
+                                <input id="search_form_name" class="input_field search_form_name" type="text" placeholder="Full Name" required="required" data-error="Name is required.">
+                                <input id="search_form_category" class="input_field search_form_category" type="text" placeholder="Phone Number">
+                                <input id="search_form_degree" class="input_field search_form_degree" type="text" placeholder="Email Address">
+                                <button id="search_submit_button" type="submit" class="search_submit_button trans_200" value="Submit">send</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
 

@@ -1,0 +1,48 @@
+/*$application-them-color:#2f14ff;*/
+/*$application-them-color:#2f14ff;*/
+body {
+  /*
+   * 1. Header sections
+     2. Sign up sections
+     Mobile devices
+  */ }
+  @media (max-width: 767px) {
+    body .header {
+      height: 130px; }
+      body .header .header-signup {
+        display: none; }
+      body .header .logo_container {
+        padding-left: 7px;
+        padding-top: 20px; }
+        body .header .logo_container .logo img {
+          height: 98px;
+          width: 300px; } }
+  @media (min-width: 768px) {
+    body .header {
+      height: 182px; }
+      body .header .header-signup {
+        display: inline-flex; }
+      body .header .logo_container {
+        padding-left: 30px;
+        padding-top: 20px; }
+        body .header .logo_container .logo img {
+          height: 98px;
+          width: 500px; } }
+  @media (max-width: 767px) {
+    body .hero_boxes {
+      display: none; } }
+  @media (min-width: 768px) {
+    body .hero_boxes {
+      display: block; } }
+  @media (max-width: 767px) {
+    body .hero_slide_content .h1mobile {
+      display: block; }
+    body .hero_slide_content .h1desktop {
+      display: none; } }
+  @media (min-width: 768px) {
+    body .hero_slide_content .h1mobile {
+      display: none; }
+    body .hero_slide_content .h1desktop {
+      display: block; } }
+
+/*# sourceMappingURL=Responsive.css.map */
