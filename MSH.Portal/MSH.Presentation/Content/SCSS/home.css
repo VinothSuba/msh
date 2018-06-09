@@ -406,7 +406,7 @@ body {
     left: -50vw !important;
     width: 50vw;
     height: 100vh;
-    background: #FFFFFF;
+    background: rgba(0, 0, 0, 0.8);
     z-index: 12;
     -webkit-transition: all 0.6s ease;
     -moz-transition: all 0.6s ease;
@@ -421,7 +421,7 @@ body {
     left: 0 !important; }
   body .menu {
     position: absolute;
-    top: 150px;
+    top: 90px;
     left: 0;
     padding-left: 15%; }
   body .menu_list {
@@ -447,9 +447,9 @@ body {
     margin-bottom: 9px; }
   body .menu_item a {
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #3a3a3a;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -458,9 +458,10 @@ body {
   body .menu_item a:hover {
     color: #6200EE; }
   body .menu_close_container {
+    margin-right: -50vw;
     position: absolute;
-    top: 86px;
-    right: 79px;
+    top: 40px;
+    right: 30px;
     width: 21px;
     height: 21px;
     cursor: pointer;
@@ -468,12 +469,14 @@ body {
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    transform: rotate(45deg); }
+    transform: rotate(45deg);
+    z-index: 11;
+    display: none; }
   body .menu_close {
     top: 9px;
     width: 21px;
     height: 3px;
-    background: #3a3a3a;
+    background: #fff;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -487,7 +490,7 @@ body {
     content: '';
     width: 3px;
     height: 21px;
-    background: #3a3a3a;
+    background: #fff;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -570,6 +573,15 @@ body {
       /*********************************
       6. Hero Boxes
       *********************************/ }
+      body .mobile-body-overly {
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.7);
+        display: none; }
       body .hamburger_container {
         display: block; }
       body .main_nav_container {
@@ -738,6 +750,8 @@ body {
     /*********************************
   5.2 Hero Slider Navigation
   *********************************/ }
+      body .menu_close_container {
+        display: none; }
       body .hamburger_container {
         display: none; }
       body .main_nav_container {
@@ -1302,5 +1316,44 @@ body {
 @font-face {
   font-family: 'fa-brands-400';
   src: url("../fonts/webfonts/fa-brands-400.eot") format("embedded-opentype"); }
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer; }
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+.mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; }
+
+.mobile-nav-active {
+  overflow: hidden; }
 
 /*# sourceMappingURL=home.css.map */
