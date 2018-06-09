@@ -25,15 +25,17 @@ namespace MSH.Presentation
             BundleTable.Bundles.Add(new Bundle("~/bundles/scripts").Include("~/Scripts/jquery-3.2.1.min.js",
                                                                            "~/Scripts/popper.js",
                                                                         "~/Scripts/easing/easing.js",
-                                                                        "~/Scripts/bootstrap.min.js",
-
+                                                                        //"~/Scripts/bootstrap.min.js",
+                                                                        "~/Scripts/bootstrap.bundle.min.js",
+                                                                        "~/Scripts/plugins/easing/jquery.easing.min.js",
                                                                          "~/Scripts/plugins/greensock/TweenMax.min.js",
                                                                         "~/Scripts/plugins/greensock/TimelineMax.min.js",
                                                                         "~/Scripts/plugins/scrollmagic/ScrollMagic.min.js",
                                                                         "~/Scripts/plugins/greensock/animation.gsap.min.js",
                                                                         "~/Scripts/plugins/greensock/ScrollToPlugin.min.js",
                                                                         "~/Scripts/plugins/OwlCarousel2-2.2.1/owl.carousel.js",
-                                                                        "~/Scripts/plugins/scrollTo/jquery.scrollTo.min.js"));
+                                                                        "~/Scripts/plugins/scrollTo/jquery.scrollTo.min.js",
+                                                                        "~/Scripts/msh/scrolling-nav.js"));
 
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -49,13 +51,16 @@ namespace MSH.Presentation
                       //"~/Content/elements_responsive.css",
                       //"~/Content/elements_styles.css",
                       "~/Content/SCSS/home.css",
+                       "~/Content/SCSS/Responsive.css",
                         //"~/Content/news_post_responsive.css",
                         //"~/Content/news_post_styles.css",
                         //"~/Content/news_responsive.css",
                         //"~/Content/news_styles.css",
                         "~/Content/responsive.css"));
-                      //"~/Content/teachers_responsive.css",
-                      //"~/Content/teachers_styles.css"));
+            //"~/Content/teachers_responsive.css",
+            //"~/Content/teachers_styles.css"));
+
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
